@@ -1,11 +1,10 @@
 # Skill Challenge 🎯
 
-## 📱 Download APK
-[Click here to download APK]
+## 📱 APK Download
+[Download APK]
 
-## 🌐 Play Online
-[Open Web App](skill-challenge.surge.sh)
-
+## 🌐 Web App
+[Play Online](https://skill-challenge.surge.sh)
 ## 🚀 Features
 - Learn new skills
 - Challenge yourself
