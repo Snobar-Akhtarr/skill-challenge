@@ -1,0 +1,86 @@
+
+  name: skill_challenge
+  description: "A new Flutter project."
+  publish_to: 'none'
+  version: 1.0.0+1
+
+  environment:
+    sdk: '>=3.0.0 <4.0.0'
+
+  dependencies:
+    flutter:
+      sdk: flutter
+
+    cupertino_icons: ^1.0.8
+
+    # =============================================
+    # FIREBASE - STABLE VERSIONS
+    # =============================================F
+    firebase_core: ^2.24.2
+    firebase_auth: ^4.16.0
+    cloud_firestore: ^4.14.0
+    firebase_storage: ^11.6.0
+    google_sign_in: ^6.1.5
+    google_sign_in_web: ^0.12.4
+
+    # =============================================
+    # EXCEL IMPORT
+    # =============================================
+    excel: ^2.1.0
+    file_picker: ^8.0.0
+
+    # =============================================
+    # PDF CERTIFICATE
+    # =============================================
+    pdf: ^3.10.4
+    share_plus: ^7.2.2
+    path_provider: ^2.1.1
+
+    # =============================================
+    # WEB SUPPORT
+    # =============================================
+    universal_html: ^2.2.4
+
+    # =============================================
+    # UI & FONTS
+    # =============================================
+    google_fonts: ^6.2.1
+
+  # =============================================
+  # WEB DEPENDENCY OVERRIDES
+  # =============================================
+  dependency_overrides:
+    firebase_storage_web: ^3.9.0
+    firebase_auth_web: ^5.9.0
+    firebase_core_web: ^2.15.0
+    web: ^0.5.1
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+
+    flutter_lints: ^2.0.0
+
+    # =============================================
+    # APP ICON
+    # =============================================
+    flutter_launcher_icons: ^0.14.3
+
+  # =============================================
+  # APP ICON CONFIGURATION
+  # =============================================
+  flutter_launcher_icons:
+    android: true
+    ios: true
+    image_path: "assets/images/logo.jpeg"
+    min_sdk_android: 21
+
+  # =============================================
+  # FLUTTER
+  # =============================================
+  flutter:
+    uses-material-design: true
+
+    assets:
+      - assets/images/logo.jpeg
+

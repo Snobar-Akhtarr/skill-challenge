@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "skill-challenge-bc902",
+          "appId": "1:562492507504:android:0ca2533df2ad48dd6b7bb5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "skill-challenge-bc902",
+          "configurations": {
+            "android": "1:562492507504:android:0ca2533df2ad48dd6b7bb5",
+            "web": "1:562492507504:web:2aace41eebe8db7b6b7bb5"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

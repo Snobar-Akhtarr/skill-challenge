@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "562492507504",
+    "project_id": "skill-challenge-bc902",
+    "storage_bucket": "skill-challenge-bc902.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562492507504:android:0ca2533df2ad48dd6b7bb5",
+        "android_client_info": {
+          "package_name": "com.example.skill_challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562492507504-rtgl2ao3s6uu2uh66fplv6o2ftatsc9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skill_challenge",
+            "certificate_hash": "20f988e4f7fbb652576743dcac88e8b849aab358"
+          }
+        },
+        {
+          "client_id": "562492507504-nmpfss10179ou6eai5pe79afucljmo90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAhO_2zv2MF7oJYwtLWjzRVrqvm_eR8Ro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562492507504-nmpfss10179ou6eai5pe79afucljmo90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
